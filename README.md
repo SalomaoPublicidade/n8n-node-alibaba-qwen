@@ -9,7 +9,7 @@ This node allows you to interact with Qwen models from Alibaba Cloud in n8n. It 
 
 1. Install the node via npm:
    ```bash
-   npm install n8n-node-alibaba-qwen
+   npm install n8n-nodes-alibaba-qwen
    ```
 
 ## Configuration
@@ -17,7 +17,7 @@ This node allows you to interact with Qwen models from Alibaba Cloud in n8n. It 
 1. Open your n8n instance
 2. Go to Settings > Community Nodes
 3. Click on "Install"
-4. Enter `n8n-node-alibaba-qwen` in the "Enter npm package name" field
+4. Enter `n8n-nodes-alibaba-qwen` in the "Enter npm package name" field
 5. Click on "Install"
 
 ### Credentials

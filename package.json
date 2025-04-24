@@ -1,6 +1,6 @@
 {
-  "name": "n8n-node-alibaba-qwen",
-  "version": "1.0.7",
+  "name": "n8n-nodes-alibaba-qwen",
+  "version": "1.0.9",
   "description": "A custom n8n node to interact with Qwen models from Alibaba Cloud",
   "main": "dist/nodes/index.js",
   "types": "dist/nodes/index.d.ts",
