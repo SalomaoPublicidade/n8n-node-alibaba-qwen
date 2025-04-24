@@ -171,7 +171,7 @@ export class QwenModel implements INodeType {
 	async execute(this: IExecuteFunctions): Promise<INodeExecutionData[][]> {
 		const items = this.getInputData();
 		const returnItems: INodeExecutionData[] = [];
-		const clientIdentifier = 'n8n-node-alibaba-qwen/1.0.7';
+		const clientIdentifier = 'n8n-nodes-alibaba-qwen/1.0.9';
 
 		for (let i = 0; i < items.length; i++) {
 			let itemJson: { success: boolean; response?: IQwenResponse; output?: string; usage?: IQwenResponse['usage']; requestId?: string; error?: { message: string; details: unknown } };

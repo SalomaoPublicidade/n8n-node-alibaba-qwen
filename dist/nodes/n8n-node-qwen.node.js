@@ -125,7 +125,7 @@ class QwenModel {
     async execute() {
         const items = this.getInputData();
         const returnItems = [];
-        const clientIdentifier = 'n8n-node-alibaba-qwen/1.0.7';
+        const clientIdentifier = 'n8n-nodes-alibaba-qwen/1.0.9';
         for (let i = 0; i < items.length; i++) {
             let itemJson;
             try {
